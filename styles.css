@@ -4,8 +4,8 @@ body {
 
 h1 {
     color: rgb(207, 183, 183);
-    font-size: 85px;
-    font-family: fantasy;
+    font-size: 80px;
+    font-family: purisa;
     text-align: center;
     font-style: bold;
 
@@ -27,7 +27,8 @@ img {
 
   a {
     color: rgb(158, 147, 180);
-    font-size: 40px;
+    font-size: 35px;
+    font-family: purisa;
     
   }
   
@@ -41,13 +42,25 @@ img {
   
   p {
     text-align: center;
-    background: linear-gradient(rgb(32, 32, 32), #312853, rgb(32, 32, 32));;
+    background: linear-gradient(rgb(32, 32, 32), #312853, rgb(32, 32, 32));
+    background: linear-gradient(to right, rgb(32, 32, 32), #312853, rgb(32, 32, 32));
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     max-width: 500px;
 
+  }
+
+  #guaca {
+    text-align: center;
+    background: linear-gradient(rgb(32, 32, 32), #312853, rgb(32, 32, 32));
+    background: linear-gradient(to right, rgb(32, 32, 32), #312853, rgb(32, 32, 32));
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 500px;
   }
 
   button {
@@ -62,4 +75,9 @@ img {
     margin-right: auto;
     padding: 1px;
     max-width: 500px;
-  }
+    }
+
+    div {
+      border: 22px;
+      border-color: aqua;
+    }
