@@ -27,6 +27,10 @@ img {
   img {
     height: auto;
     width: 400px;
+    border-style: inset;
+    border-color: rgb(196, 196, 196);
+    border-radius: 30px;
+    border-width: 5px;
   }
 
   a {
