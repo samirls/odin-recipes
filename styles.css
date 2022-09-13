@@ -8,6 +8,8 @@ h1 {
     font-family: purisa;
     text-align: center;
     font-style: bold;
+
+
 }
 
 h2 {
@@ -94,4 +96,14 @@ img {
       border-color: rgb(77, 77, 77);
       border-radius: 30px;
       border-width: 1px;
+    }
+
+    .change-color {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    #hiddenMessage {
+      font-size: 18px;
+      color: aliceblue;
     }
